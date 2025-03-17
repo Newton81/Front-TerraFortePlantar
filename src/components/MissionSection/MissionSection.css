@@ -1,0 +1,14 @@
+.mission-section {
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .mission-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .mission-section p {
+    font-size: 16px;
+    line-height: 1.5;
+  }

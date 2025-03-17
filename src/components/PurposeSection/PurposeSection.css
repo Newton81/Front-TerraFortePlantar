@@ -1,0 +1,14 @@
+.purpose-section {
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .purpose-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .purpose-section p {
+    font-size: 16px;
+    line-height: 1.5;
+  }

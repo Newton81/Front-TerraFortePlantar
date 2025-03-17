@@ -1,0 +1,25 @@
+* {margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-2xl h2 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.descricao-central{
+    font-size: 0.85rem;
+    text-align: center;
+    color: #333;
+    margin-top: 10px;
+    line-height: 1.4;
+}
+
+.font-bold
+{
+    font-weight: bold;
+}
