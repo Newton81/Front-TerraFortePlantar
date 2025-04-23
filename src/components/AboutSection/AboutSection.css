@@ -1,0 +1,24 @@
+.sobre-nos-section {
+    background-color: #f6fdf8;
+    padding: 80px 20px;
+    color: #215C3C;
+  }
+  
+  .sobre-nos-section .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .sobre-nos-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #166534;
+  }
+  
+  .sobre-nos-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+  }
+  

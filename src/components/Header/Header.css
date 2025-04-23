@@ -4,6 +4,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    text-align: center;
   }
   
   header img {
@@ -19,8 +20,53 @@ header {
     padding: 10px;
   }
 
+  nav a {
+    position: relative;
+  }
+
+  nav a:not(.whatsapp-button):hover {
+    color: #16a34a;
+  }
+  
+  nav a:not(.whatsapp-button)::after {
+    content: '';
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #16a34a;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  nav a:not(.whatsapp-button):hover::after {
+    width: 80%;
+  }
+  
+
   nav{
+    align-items: center;
     display: flex;
     gap: 30px;
   }
   
+  .whatsapp-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px 16px;
+    color: white;
+    background-color:#22c55e;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s;
+  }
+
+  .whatsapp-button:hover {
+    background-color: #16a34a;
+  }
+  
+  .whatsapp-icon {
+    font-size: 30px;
+  }
